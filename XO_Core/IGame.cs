@@ -1,4 +1,4 @@
-﻿namespace XO_Core
+﻿namespace XO.Core
 {
     public interface IGame<Move, State>
     {
@@ -15,7 +15,7 @@
         /// </summary>
         /// <param name="state">Current game state</param>
         /// <returns>Ordered list of moves, from best to worst</returns>
-        public List<Move> GetMoves(State state);
+        public IList<Move> GetMoves(State state);
 
         /// <summary>
         /// Get only game changing moves for given game state.
@@ -24,7 +24,7 @@
         /// </summary>
         /// <param name="state">Current game state</param>
         /// <returns>Ordered list of moves, from best to worst</returns>
-        public List<Move> GetQuiescenceMoves(State state);
+        public IList<Move> GetQuiescenceMoves(State state);
 
         /// <summary>
         /// Apply move to current game state

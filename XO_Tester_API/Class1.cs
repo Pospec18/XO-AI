@@ -1,4 +1,4 @@
-﻿namespace XO_Tester_API
+﻿namespace XO.Tester.API
 {
     public class Class1
     {

@@ -1,4 +1,4 @@
-﻿namespace XO_Core
+﻿namespace XO.Core
 {
     /// <summary>
     /// Struct for storing move with it's evaluation
@@ -16,7 +16,7 @@
 
         public MoveEval(int eval)
         {
-            this.move = null;
+            move = null;
             this.eval = eval;
         }
 

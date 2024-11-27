@@ -1,6 +1,6 @@
 ﻿using Timer = System.Timers.Timer;
 
-namespace XO_Core
+namespace XO.Core
 {
     public static class Solver<Move, State> where Move : struct
     {
