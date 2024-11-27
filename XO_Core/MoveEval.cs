@@ -1,5 +1,8 @@
 ﻿namespace XO_Core
 {
+    /// <summary>
+    /// Struct for storing move with it's evaluation
+    /// </summary>
     internal struct MoveEval<Move> where Move : struct
     {
         public Move? move;
